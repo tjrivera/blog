@@ -39,15 +39,15 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: Tyler
+    enabled: true # needs to be explicitly set
+    title: Hi, I'm Tyler Rivera
     # imageUrl: '<img location>'
     # imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # buttons:
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
 
   # home-info mode
   homeInfoParams:
@@ -55,6 +55,8 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tyler-rivera-653b4018b/"
     - name: twitter
       url: "https://twitter.com/atriv"
     - name: github
