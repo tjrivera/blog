@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Tyler Rivera's Blog"
+  title: "Tyler Rivera"
   description: ""
   author: Tyler
 
@@ -41,6 +41,8 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hi, I'm Tyler Rivera
+    subtitle: |
+      Solving Problems. Building [systems](https://digitalhome.comcast.com/).
     # imageUrl: '<img location>'
     # imageTitle: my image
     # buttons:
