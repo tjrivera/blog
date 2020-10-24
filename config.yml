@@ -23,7 +23,7 @@ params:
   images: "<link or path of image for opengraph, twitter-cards>"
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   comments: false
   defaultTheme: auto
   disableThemeToggle: false
@@ -45,9 +45,9 @@ params:
       Solving Problems. Building [systems](https://digitalhome.comcast.com/).
     # imageUrl: '<img location>'
     # imageTitle: my image
-    # buttons:
-    #   - name: Posts
-    #     url: posts
+    buttons:
+      - name: Posts
+        url: posts
     #   - name: Tags
     #     url: tags
 
@@ -67,3 +67,12 @@ params:
   analytics:
     google:
       SiteVerificationTag: "GTM-NGG78G4"
+
+menu:
+  main:
+    - name: Archives
+      url: /archives/
+      weight: 5
+    - name: Tags
+      url: /tags/
+      weight: 10
