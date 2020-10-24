@@ -19,7 +19,7 @@ Here's another crack at it. I plan on posting things that I've been working on a
 Some of it may be interesting to others, a good amount of it will not. The goal is to keep things simple and to maintain momentum. Ultimately, for me, the exercise is about accountability -- 
 I want to work on more things consistently, and I want to improve my writing -- better yet -- if somebody else finds value that's a bonus!
 
-This space is intended to be a place to hone a process. To start that process is (roughly):
+This space is intended to be a place to hone a process. To start that process (shamelessly borrowed from [@JamesClear](https://twitter.com/jamesclear) is roughly:
 
 1. Explore widely. Find out what is possible.
 2. Test cheaply. Run small, quick experiments. Sample things.
@@ -29,7 +29,7 @@ This space is intended to be a place to hone a process. To start that process is
 
 ### Places to explore
 
-* Decentralized Web or Web3: Exploring things like [IPFS](https://ipfs.io/) (which is what currently hosts this blog), smart contracts, 
+* [Decentralized Web](https://flyingzumwalt.gitbooks.io/decentralized-web-primer/content/) or Web3: Exploring things like [IPFS](https://ipfs.io/) (which is what currently hosts this blog), [smart contracts](https://ethereum.org/en/developers/docs/smart-contracts/anatomy/), etc.
 * Optimized learning: building a [knowledge graph](https://en.wikipedia.org/wiki/Zettelkasten), and organizing thought using tools like [Roam Research](https://roamresearch.com/)
 * Building: Tools to help connect people to their community, food supply chains, nature.
 * Baking: specifically bagels. Is the perfect bagel possible?
