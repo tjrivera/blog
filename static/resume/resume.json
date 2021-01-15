@@ -1,0 +1,198 @@
+{
+  "basics": {
+    "name": "Tyler Rivera",
+    "label": "Full Stack Developer / Site Reliability Engineer",
+    "email": "tyler@rivera.io",
+    "phone": "(609) 532-7571",
+    "website": "https://rivera.io",
+    "summary": "Tyler Rivera is a technologist hailing from Philadelphia, PA with experience in Finance, Healthcare, IoT, Python, Javascript, Go, cloud services and DevOps principles. Tyler enjoys working with teams to solve difficult problems, and creating solutions to enable people to effect positive change.",
+    "location": {
+      "address": "2318 E Albert St",
+      "postalCode": "19125",
+      "city": "Philadelphia",
+      "countryCode": "PA"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Comcast",
+      "position": "Tech Lead",
+      "website": "https://digitalhome.comcast.com/",
+      "startDate": "2020-01-01",
+      "summary": "Technical Lead responsible for Comcast Connected Living's API Gateway initiative.",
+      "highlights": [
+        "Blue/Green deployment of self-service API Gateway for developer teams leveraging Kong Gateway within AWS.",
+        "Open-source contributions to Kong's Admin API golang client, and various Terraform providers.",
+        "Designed and developed L7 service-mesh solution (Consul Connect) for the Connected Living org.",
+        "Mentored a team of engineers to bring them up to speed on remote-work best practices."
+      ]
+    },
+    {
+      "company": "Knack",
+      "position": "Sr. Devops Engineer",
+      "website": "https://knack.com/",
+      "startDate": "2019-01-01",
+      "endDate": "2019-11-15",
+      "summary": "One of two DevOps engineers responsible for modernizing Knack's AWS environment",
+      "highlights": [
+        "Transitioned API backend to a container-based solution running in ECS.",
+        "Designed and implemented a service-discovery solution utilizing Consul.",
+        "Introduced and implemented IaC (w/ Terraform) to standardize infrastructure.",
+        "Introduced TypeScript-based lambdas to automate support concerns and infrastructure maintenance.",
+        "Created a scaleable container-based CICD solution to build and deploy applications and infrastructure."
+      ]
+    },
+    {
+      "company": "Comcast",
+      "position": "Sr. Site Reliability Engineer",
+      "website": "https://digitalhome.comcast.com/",
+      "startDate": "2017-09-01",
+      "endDate": "2019-01-01",
+      "summary": "One of a small team of SREs responsible for the cloud transformation of an existing client facing Java monolith and simultaneous design and roll-out of an AWS microservice architecture within Comcast's Digital Home organization.",
+      "highlights": [
+        "Developed Federated Authentication utility in use across all of Comcast.",
+        "Collaborated with Comcast's Security and Governance team to establish AWS best practices towards building immutable infrastructure and maintaining cloud ACLs at scale.",
+        "Developed Envoy-based service mesh (custom xDS written in Go) to facilitate migration from a Java monolith to a container-based microservice solution.",
+        "Mentored junior SREs to bootstrap efforts across Comcast and build skills across teams."
+      ]
+    },
+    {
+      "company": "The Children's Hospital of Philadelphia",
+      "position": "DevOps Engineer III",
+      "website": "https://dbhi.chop.edu",
+      "startDate": "2017-01-01",
+      "endDate": "2017-09-01",
+      "summary": "One of a team of two DevOps engineers responsible for developing CHOP's overall cloud-strategy and automating testing pipelines for applications built within The Department of Biomedical and Health Informatics.",
+      "highlights": [
+        "Implemented secrets management solution using Hashicorp's Vault.",
+        "Designed and implemented an Elasticsearch, Logstash, Kibana (ELK) stack for log aggregation and data indexing workflows.",
+        "Introduced the idea of infrastructure as code (Terraform/Ansible) and CI/CD based ops workflows (Jenkins) for building and maintaining on-prem and cloud infrastructure.",
+        "Member of 8 person team within The Children's Hospital of Philadelphia tasked with developing a cloud strategy for the hospital across AWS, GCP and our own on premises infrastructure."
+      ]
+    },
+    {
+      "company": "The Children's Hospital of Philadelphia",
+      "position": "Research Informatics Analyst/Programmer II",
+      "website": "https://dbhi.chop.edu",
+      "startDate": "2013-05-01",
+      "endDate": "2017-01-01",
+      "summary": "Lead software developer for the Department of Health and Informatics' (DBHi) Enterprise Informatics Group, which was responsible for the development of several web applications, ETL processes, and data APIs to facilitate rapid asynchronous de-identified biobanking for cross-institutional studies.",
+      "highlights": [
+        "Introduced full test suite for all components of our Biorepository toolkit and led efforts to document and open-source DBHi's work.",
+        "Rearchitected application into modern React based single page app.",
+        "Led integration efforts between disparate genomic, phenotypic, and sample-based datasets into a queryable web-based application."
+      ]
+    },
+    {
+      "company": "Bloomberg LP",
+      "position": "Technology Operations and Implementation",
+      "website": "https://bloomberg.com",
+      "startDate": "2011-09-01",
+      "endDate": "2013-05-01",
+      "summary": "Member of a team responsible for developing bespoke solutions for Bloomberg LP's Global Data department.",
+      "highlights": [
+        "Designed, Developed and led the implementation of a proprietary business intelligence system backed by a RESTful API and integrated into Excel.",
+        "Created entity-extraction engine to automatically detect entity relationships in transcribed investor calls to build supply-chain relationships.",
+        "Developed a syndicated loans mapping engine to normalize client portfolios and map them using dynamic algorithms."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "The College of New Jersey",
+      "area": "Finance",
+      "studyType": "Bachelors of Science",
+      "startDate": "2005-08-01",
+      "endDate": "2009-05-01"
+    },
+    {
+      "institution": "Amazon",
+      "studyType": "Certification",
+      "area": "AWS Certified Solutions Architect – Associate",
+      "endDate": "2018-11-15"
+    },
+    {
+      "institution": "Coursera/Google",
+      "studyType": "Certification",
+      "area": "Google Cloud Platform for Systems Operations Professionals",
+      "endDate": "2017-05-01"
+    },
+    {
+      "institution": "elastic",
+      "studyType": "Training",
+      "area": "Core Elasticsearch: Developer",
+      "endDate": "2016-10-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Makers Against Drought - Finalist",
+      "date": "2016-08-15",
+      "awarder": "Samsung",
+      "summary": "Designed and implemented front-end and back-end architecture for an automated aquaponics system based on Samsung's ARTIK IoT platform.  "
+    }
+  ],
+  "publications": [
+    {
+      "name": "The biorepository portal toolkit: an honest brokered, modular service oriented software tool set for biospecimen-driven translational research",
+      "publisher": "BMC genomics",
+      "releaseDate": "2016-08-18",
+      "website": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2797-9",
+      "summary": "Discusses the creation of a robust biorepository management platform that enables association of a physical biospecimens, clinical diagnoses, and patient, genomic and research. "
+    },
+    {
+      "name": "Scalable Biobanking: A Modular Electronic Honest Broker and Biorepository for Integrated Clinical, Specimen and Genomic Research",
+      "publisher": "Bioinformatics and Biomedicine (BIBM)",
+      "releaseDate": "2015-11-12",
+      "website": "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7359732&isnumber=7359638",
+      "summary": "Discusses a best-of-breed system integrative approach to finding solutions to administer a biobank operationally, use a biobank scientifically and integrate clinical, specimen and genomic data. "
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development / Data Engineer",
+      "keywords": [
+        "Django",
+        "Python",
+        "Go",
+        "RESTful APIs",
+        "Javascript (ES5/ES6)",
+        "React/Redux",
+        "PostgreSQL",
+        "Data Integration"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "AWS - ECS, IAM, EC2, S3, RDS, Lambda, IoT, API Gateway, DynamoDB, Codebuild, SNS, etc.",
+        "Google Cloud Platform - GCE, Compute, Storage, BigTable",
+        "Telegraf/InfluxDB",
+        "GitHub",
+        "GitLab",
+        "Jenkins",
+        "CircleCI",
+        "Ansible",
+        "Terraform",
+        "Packer",
+        "Vault"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Developing"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hiking, Snowboarding, Philadelphia 76ers, Automating Everything, SketchUp Modeling, Woodworking, Discovering strange new music"
+    }
+  ]
+}
