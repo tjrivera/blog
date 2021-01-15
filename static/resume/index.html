@@ -1,0 +1,533 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+  <title>Tyler Rivera</title>
+
+  <style>
+    body {
+      background: #EEEEEE;
+      font: 12px "Times New Roman", Times, sans-serif;
+      line-height: 1.4;
+      margin: 40px 0;
+    }
+
+    em {
+      color: #999;
+    }
+
+    p {
+      line-height: 1.4;
+    }
+
+    ul {
+      margin-bottom: 0;
+    }
+
+    li {
+      margin-bottom: 2px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #resume {
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 80px 100px;
+      background: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 4px #aaa;
+      -webkit-box-shadow: 2px 2px 4px #aaa;
+    }
+
+    .coursesList {
+      width: 28%;
+      vertical-align: top;
+      display: inline-block;
+    }
+
+    .largeFont {
+      font-size: 20px;
+    }
+
+    .smallFont {
+      font-size: 12px;
+    }
+
+    .sectionBlock {
+      display: flex;
+      width: 100%;
+    }
+
+    .sectionName {
+      width: 18%;
+      vertical-align: top;
+      display: inline-block;
+    }
+
+    .sectionContent {
+      width: 80%;
+      vertical-align: top;
+      display: inline-block;
+    }
+
+    .sectionContent ul {
+      padding-left: 20px;
+      margin-top: 6px;
+      list-style-type: circle;
+    }
+
+    .sectionContent .title {
+      font-weight: bold;
+    }
+
+    .sectionContent .date {
+      float: right;
+    }
+
+    .sectionContent .separator {
+      height: 14px;
+    }
+
+    .sectionLine {
+      border-style: dashed;
+      border-width: 1px;
+      border-color: #CFCFCF;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .divider {
+      font-weight: bold;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .summary {
+      margin-top: 6px;
+    }
+
+    .skillBlock {
+      margin-bottom: 4px;
+    }
+
+    .jobBlock {
+      page-break-inside: avoid;
+    }
+
+    /* Media Queries */
+    @media only screen and (max-width: 40em) {
+      body {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0.5em 1em;
+        border: none;
+      }
+
+      .sectionContent {
+        width: 100%;
+      }
+
+      .sectionContent .date {
+        padding-right: 2em;
+      }
+
+      .sectionName {
+        width: auto;
+      }
+
+      .largeFont {
+        font-size: 20px;
+      }
+
+      .smallFont {
+        font-size: 14px;
+      }
+    }
+
+    @media print {
+      #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0px 0px;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+
+      a {
+        color: black;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div id='resume'>
+    <div id='nameBlock' class='largeFont'>
+      <span class='name'>
+        Tyler Rivera,
+      </span>
+      <span class='label'>Full Stack Developer / Site Reliability Engineer</span>
+    </div>
+    <div id='basicsBlock' class='smallFont'>
+      <div class='contactBlock'>
+        <span class='email'>tyler.rivera@gmail.com</span>
+        <span class='divider'>|</span>
+        <span class='phone'>(609) 532-7571</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Philadelphia, PA
+        </span>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='summaryBlock' class="sectionBlock">
+      <div class='sectionName'>
+        <span>SUMMARY</span>
+      </div>
+      <div class='sectionContent'>
+        <span>Tyler Rivera is a technologist hailing from Philadelphia, PA with experience in Finance, Healthcare, IoT,
+          Python, Javascript, Go, cloud services and DevOps principles. Tyler enjoys working with teams to solve
+          difficult problems, and creating solutions to enable people to effect positive change.</span>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='workBlock' class="sectionBlock">
+      <div class='sectionName'>
+        <span>EXPERIENCE</span>
+      </div>
+      <div class='sectionContent'>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              Comcast, Tech Lead
+            </span>
+            <span class='date'>
+              2019-01-01 &mdash; Present
+            </span>
+          </div>
+          <div><a href='https://digitalhome.comcast.com/'>https://digitalhome.comcast.com/</a></div>
+          <ul class='highlights'>
+            <li>Technical Lead responsible for Comcast Connected Living&#x27;s API Gateway initiative.</li>
+            <li>Blue/Green deployment of self-service API Gateway for developer teams leveraging Kong Gateway within
+              AWS.</li>
+            <li>Open-source contributions to Kong&#x27;s Admin API golang client, and various Terraform providers.</li>
+            <li>Designed and developed L7 service-mesh solution (Consul Connect) for the Connected Living org.</li>
+            <li>Mentored a team of engineers to bring them up to speed on remote-work best practices.</li>
+          </ul>
+          <div class='separator'></div>
+        </div>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              Knack, Sr. Devops Engineer
+            </span>
+            <span class='date'>
+              2019-01-01 &mdash; 2019-11-15
+            </span>
+          </div>
+          <div><a href='https://knack.com/'>https://knack.com/</a></div>
+          <ul class='highlights'>
+            <li>One of two DevOps engineers responsible for modernizing Knack&#x27;s AWS environment</li>
+            <li>Transitioned API backend to a container-based solution running in ECS.</li>
+            <li>Designed and implemented a service-discovery solution utilizing Consul.</li>
+            <li>Introduced and implemented IaC (w/ Terraform) to standardize infrastructure.</li>
+            <li>Introduced TypeScript-based lambdas to automate support concerns and infrastructure maintenance.</li>
+            <li>Created a scaleable container-based CICD solution to build and deploy applications and infrastructure.
+            </li>
+          </ul>
+          <div class='separator'></div>
+        </div>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              Comcast, Sr. Site Reliability Engineer
+            </span>
+            <span class='date'>
+              2017-09-01 &mdash; 2019-01-01
+            </span>
+          </div>
+          <div><a href='https://digitalhome.comcast.com/'>https://digitalhome.comcast.com/</a></div>
+          <ul class='highlights'>
+            <li>One of a small team of SREs responsible for the cloud transformation of an existing client facing Java
+              monolith and simultaneous design and roll-out of an AWS microservice architecture within Comcast&#x27;s
+              Digital Home organization.</li>
+            <li>Developed Federated Authentication utility in use across all of Comcast.</li>
+            <li>Collaborated with Comcast&#x27;s Security and Governance team to establish AWS best practices towards
+              building immutable infrastructure and maintaining cloud ACLs at scale.</li>
+            <li>Developed Envoy-based service mesh (custom xDS written in Go) to facilitate migration from a Java
+              monolith to a container-based microservice solution.</li>
+            <li>Mentored junior SREs to bootstrap efforts across Comcast and build skills across teams.</li>
+          </ul>
+          <div class='separator'></div>
+        </div>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              The Children&#x27;s Hospital of Philadelphia, DevOps Engineer III
+            </span>
+            <span class='date'>
+              2017-01-01 &mdash; 2017-09-01
+            </span>
+          </div>
+          <div><a href='https://dbhi.chop.edu'>https://dbhi.chop.edu</a></div>
+          <ul class='highlights'>
+            <li>One of a team of two DevOps engineers responsible for developing CHOP&#x27;s overall cloud-strategy and
+              automating testing pipelines for applications built within The Department of Biomedical and Health
+              Informatics.</li>
+            <li>Implemented secrets management solution using Hashicorp&#x27;s Vault.</li>
+            <li>Designed and implemented an Elasticsearch, Logstash, Kibana (ELK) stack for log aggregation and data
+              indexing workflows.</li>
+            <li>Introduced the idea of infrastructure as code (Terraform/Ansible) and CI/CD based ops workflows
+              (Jenkins) for building and maintaining on-prem and cloud infrastructure.</li>
+            <li>Member of 8 person team within The Children&#x27;s Hospital of Philadelphia tasked with developing a
+              cloud strategy for the hospital across AWS, GCP and our own on premises infrastructure.</li>
+          </ul>
+          <div class='separator'></div>
+        </div>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              The Children&#x27;s Hospital of Philadelphia, Research Informatics Analyst/Programmer II
+            </span>
+            <span class='date'>
+              2013-05-01 &mdash; 2017-01-01
+            </span>
+          </div>
+          <div><a href='https://dbhi.chop.edu'>https://dbhi.chop.edu</a></div>
+          <ul class='highlights'>
+            <li>Lead software developer for the Department of Health and Informatics&#x27; (DBHi) Enterprise Informatics
+              Group, which was responsible for the development of several web applications, ETL processes, and data APIs
+              to facilitate rapid asynchronous de-identified biobanking for cross-institutional studies.</li>
+            <li>Introduced full test suite for all components of our Biorepository toolkit and led efforts to document
+              and open-source DBHi&#x27;s work.</li>
+            <li>Rearchitected application into modern React based single page app.</li>
+            <li>Led integration efforts between disparate genomic, phenotypic, and sample-based datasets into a
+              queryable web-based application.</li>
+          </ul>
+          <div class='separator'></div>
+        </div>
+        <div class="jobBlock">
+          <div class='blockHeader'>
+            <span class='title'>
+              Bloomberg LP, Technology Operations and Implementation
+            </span>
+            <span class='date'>
+              2011-09-01 &mdash; 2013-05-01
+            </span>
+          </div>
+          <div><a href='https://bloomberg.com'>https://bloomberg.com</a></div>
+          <ul class='highlights'>
+            <li>Member of a team responsible for developing bespoke solutions for Bloomberg LP&#x27;s Global Data
+              department.</li>
+            <li>Designed, Developed and led the implementation of a proprietary business intelligence system backed by a
+              RESTful API and integrated into Excel.</li>
+            <li>Created entity-extraction engine to automatically detect entity relationships in transcribed investor
+              calls to build supply-chain relationships.</li>
+            <li>Developed a syndicated loans mapping engine to normalize client portfolios and map them using dynamic
+              algorithms.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='publications'>
+      <div class='sectionName'>
+        <span>PUBLICATIONS</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='blockHeader'>
+          <span class='title'>
+            The biorepository portal toolkit: an honest brokered, modular service oriented software tool set for
+            biospecimen-driven translational research, BMC genomics
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>2016-08-18</span>
+          </span>
+        </div>
+        <div class='website'>
+          <a
+            href='https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2797-9'>https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2797-9</a>
+        </div>
+        <ul class='highlights'>
+          <li>Discusses the creation of a robust biorepository management platform that enables association of a
+            physical biospecimens, clinical diagnoses, and patient, genomic and research. </li>
+        </ul>
+        <div class='separator'></div>
+        <div class='blockHeader'>
+          <span class='title'>
+            Scalable Biobanking: A Modular Electronic Honest Broker and Biorepository for Integrated Clinical, Specimen
+            and Genomic Research, Bioinformatics and Biomedicine (BIBM)
+          </span>
+          <span class='date'>
+            <span class='releaseDate'>2015-11-12</span>
+          </span>
+        </div>
+        <div class='website'>
+          <a
+            href='http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7359732&amp;isnumber=7359638'>http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=7359732&amp;isnumber=7359638</a>
+        </div>
+        <ul class='highlights'>
+          <li>Discusses a best-of-breed system integrative approach to finding solutions to administer a biobank
+            operationally, use a biobank scientifically and integrate clinical, specimen and genomic data. </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='awards' class="sectionBlock">
+      <div class='sectionName'>
+        <span>AWARDS</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='blockHeader'>
+          <span class='title'>
+            Makers Against Drought - Finalist, Samsung
+          </span>
+          <span class='date'>
+            <span class='date'>2016-08-15</span>
+          </span>
+        </div>
+        <ul class='highlights'>
+          <li>Designed and implemented front-end and back-end architecture for an automated aquaponics system based on
+            Samsung&#x27;s ARTIK IoT platform. </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+
+    <div id='education' class="sectionBlock">
+      <div class='sectionName'>
+        <span>EDUCATION</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='educationBlock'>
+          <span class='title'>
+            The College of New Jersey
+          </span>
+          <span class='date'>
+            2005-08-01 &mdash; 2009-05-01
+          </span>
+          <div class=''>
+            Bachelors of Science - Finance
+          </div>
+        </div>
+        <div class='separator'></div>
+        <div class='educationBlock'>
+          <span class='title'>
+            Amazon
+          </span>
+          <div class=''>
+            Certification - AWS Certified Solutions Architect – Associate
+          </div>
+        </div>
+        <div class='separator'></div>
+        <div class='educationBlock'>
+          <span class='title'>
+            Coursera/Google
+          </span>
+          <div class=''>
+            Certification - Google Cloud Platform for Systems Operations Professionals
+          </div>
+        </div>
+        <div class='separator'></div>
+        <div class='educationBlock'>
+          <span class='title'>
+            elastic
+          </span>
+          <div class=''>
+            Training - Core Elasticsearch: Developer
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='skills' class="sectionBlock">
+      <div class='sectionName'>
+        <span>SKILLS</span>
+      </div>
+      <div class='sectionContent'>
+        <div class='skillBlock'>
+          <span class='title'>Web Development / Data Engineer:</span>
+          <span>Django</span>,
+          <span>Python</span>,
+          <span>Go</span>,
+          <span>RESTful APIs</span>,
+          <span>Javascript (ES5/ES6)</span>,
+          <span>React/Redux</span>,
+          <span>PostgreSQL</span>,
+          <span>Data Integration</span>
+        </div>
+        <div class='skillBlock'>
+          <span class='title'>DevOps:</span>
+          <span>AWS - ECS, IAM, EC2, S3, RDS, Lambda, IoT, API Gateway, DynamoDB, Codebuild, SNS, etc.</span>,
+          <span>Google Cloud Platform - GCE, Compute, Storage, BigTable</span>,
+          <span>Telegraf/InfluxDB</span>,
+          <span>GitHub</span>,
+          <span>GitLab</span>,
+          <span>Jenkins</span>,
+          <span>CircleCI</span>,
+          <span>Ansible</span>,
+          <span>Terraform</span>,
+          <span>Packer</span>,
+          <span>Vault</span>
+        </div>
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='languages' class="sectionBlock">
+      <div class='sectionName'>
+        <span>LANGUAGES</span>
+      </div>
+      <div class='sectionContent'>
+        <span class='language'>English</span>
+        <span class='fluency'><em>(Native speaker)</em></span>
+        <span>,</span>
+        <span class='language'>Spanish</span>
+        <span class='fluency'><em>(Developing)</em></span>
+
+      </div>
+      <div class='sectionLine'></div>
+    </div>
+
+    <div id='interests' class="sectionBlock">
+      <div class='sectionName'>
+        <span>INTERESTS</span>
+      </div>
+      <div class='sectionContent'>
+        <span class='name'>Hiking, Snowboarding, Philadelphia 76ers, Automating Everything, SketchUp Modeling,
+          Woodworking, Discovering strange new music</span>
+        <!--
+      -->
+      </div>
+      <div class='sectionLine'></div>
+    </div>
+
+</body>
+
+</html>
