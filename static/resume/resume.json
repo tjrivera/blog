@@ -16,13 +16,13 @@
   },
   "work": [
     {
-      "company": "Sagely",
+      "name": "Sagely",
       "position": "Founding Engineer",
       "website": "https://growsagely.com/",
       "startDate": "2022-07-01"
     },
     {
-      "company": "Comcast",
+      "name": "Comcast",
       "position": "Principal Engineer",
       "website": "https://digitalhome.comcast.com/",
       "startDate": "2020-01-01",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "company": "Knack",
+      "name": "Knack",
       "position": "Sr. Devops Engineer",
       "website": "https://knack.com/",
       "startDate": "2019-01-01",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "company": "Comcast",
+      "name": "Comcast",
       "position": "Sr. Site Reliability Engineer",
       "website": "https://digitalhome.comcast.com/",
       "startDate": "2017-09-01",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "company": "The Children's Hospital of Philadelphia",
+      "name": "The Children's Hospital of Philadelphia",
       "position": "DevOps Engineer III",
       "website": "https://dbhi.chop.edu",
       "startDate": "2017-01-01",
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "company": "The Children's Hospital of Philadelphia",
+      "name": "The Children's Hospital of Philadelphia",
       "position": "Research Informatics Analyst/Programmer II",
       "website": "https://dbhi.chop.edu",
       "startDate": "2013-05-01",
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "company": "Bloomberg LP",
+      "name": "Bloomberg LP",
       "position": "Technology Operations and Implementation",
       "website": "https://bloomberg.com",
       "startDate": "2011-09-01",
