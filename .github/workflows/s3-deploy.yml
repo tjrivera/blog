@@ -20,6 +20,13 @@ jobs:
         with:
           hugo-version: "latest"
 
+      - name: JSONResume Export
+        uses: kelvintaywl/action-jsonresume-export@v1
+        with:
+          theme: elegant
+          output_filepath: static/resume/index.html
+          resume_filepath: static/resume/resume.json
+
       - name: Build
         run: hugo --gc --verbose --minify
 

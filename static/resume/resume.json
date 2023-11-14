@@ -16,10 +16,17 @@
   },
   "work": [
     {
+      "company": "Sagely",
+      "position": "Founding Engineer",
+      "website": "https://growsagely.com/",
+      "startDate": "2022-07-01"
+    },
+    {
       "company": "Comcast",
-      "position": "Tech Lead",
+      "position": "Principal Engineer",
       "website": "https://digitalhome.comcast.com/",
       "startDate": "2020-01-01",
+      "endDate": "2022-07-01",
       "summary": "Technical Lead responsible for Comcast Connected Living's API Gateway initiative.",
       "highlights": [
         "Blue/Green deployment of self-service API Gateway for developer teams leveraging Kong Gateway within AWS.",
