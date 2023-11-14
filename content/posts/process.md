@@ -1,7 +1,7 @@
 ---
 title: "Process"
 date: 2020-10-24T11:33:36-04:00
-draft: false
+draft: true
 tags:
   - process
   - learning
