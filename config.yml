@@ -42,12 +42,12 @@ params:
     enabled: true # needs to be explicitly set
     title: Hi, I'm Tyler Rivera
     subtitle: |
-      Solving Problems. Building [systems](https://digitalhome.comcast.com/).
+      Solving Problems. Building [systems](https://growsagely.com/).
     # imageUrl: '<img location>'
     # imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
+    # buttons:
+      # - name: Posts
+      #   url: posts
     #   - name: Tags
     #     url: tags
 
