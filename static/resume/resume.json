@@ -8,7 +8,8 @@
     "summary": "Tyler Rivera is a technologist hailing from Philadelphia, PA with experience in Finance, Healthcare, IoT, Python, Javascript, Go, cloud services and DevOps principles. Tyler enjoys working with teams to solve difficult problems, and creating solutions to enable people to effect positive change.",
     "location": {
       "city": "Philadelphia",
-      "countryCode": "PA"
+      "state": "PA",
+      "countryCode": "US"
     },
     "profiles": []
   },
@@ -17,7 +18,13 @@
       "name": "Sagely",
       "position": "Founding Engineer",
       "website": "https://growsagely.com/",
-      "startDate": "2022-07-01"
+      "startDate": "2022-07-01",
+      "highlights": [
+        "Implemented AWS infrastructure for MLOps.",
+        "Architected and developed iOS/Android, NextJS, and Slack applications.",
+        "Developed custom LLM Agents for curriculum generation and resource evaluation",
+        "Coached client teams on best practices for software engineering and agile development."
+      ]
     },
     {
       "name": "Comcast",
@@ -35,7 +42,7 @@
     },
     {
       "name": "Knack",
-      "position": "Sr. Devops Engineer",
+      "position": "Sr. DevOps Engineer",
       "website": "https://knack.com/",
       "startDate": "2019-01-01",
       "endDate": "2019-11-15",
